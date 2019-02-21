@@ -4,7 +4,7 @@ class Testcase(unittest.TestCase):
                 print('setup method execution')
         def test(self):
                 print('test method execution')
-				print(10/0)#for testing of unit testfailre scenario
+				print(10/0)
         def tearDown(self):
                 print('teardown method execution')
 unittest.main()
